@@ -550,16 +550,8 @@ video {
   border-radius: 0.25rem;
 }
 
-.border {
-  border-width: 1px;
-}
-
 .border-2 {
   border-width: 2px;
-}
-
-.border-s {
-  border-inline-start-width: 1px;
 }
 
 .border-solid {
@@ -574,11 +566,6 @@ video {
 .bg-blue-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(219 234 254 / var(--tw-bg-opacity));
-}
-
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
 }
 
 .px-4 {

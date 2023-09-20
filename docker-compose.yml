@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    ports:
+      - 6090:3001
+    networks:
+      - shorturl_app
+
+networks:
+  shorturl_app:
+    driver: bridge

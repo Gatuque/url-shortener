@@ -13,3 +13,8 @@ pom.xml.asc
 .nrepl-port
 .cpcache/
 env.edn
+.clj-kondo
+.shadow-cljs
+.lsp
+resources/public/assets/js/*
+resources/public/assets/css/*
